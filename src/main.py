@@ -45,9 +45,12 @@ class TicTacToe:
             self._actions()
             self._player = 1
 
-    def _game_status(self):
+    def _game_status(self, action):
         ## Check _player, and then check whether the game has ended. 
+        self.action = action # Should be the last played indice
         
+         
+
         
 
         
