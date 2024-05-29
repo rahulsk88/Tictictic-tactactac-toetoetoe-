@@ -14,6 +14,11 @@
     ## TODO: Define Win Conditions
     ## TODO: 
 
+from .utils import *
+
+import numpy as np
+
+
 
 ## Board = [[], [], []]
 ## set all to 0
